@@ -1,8 +1,12 @@
-# unit_converter_app
+# ConverterMate
 
-Unit Conversion Application
+Unit Conversion mobile application created using Flutter framework and Dart language.
+This application was created as school project. 
+
 
 ## Dates
+
+#Progress Dates. 
 
 April 10, 2023
 Application successfully receives a reuest body using GET method.
@@ -17,6 +21,4 @@ April 24, 2023
 Most of the UI for application is done.
 
 April 28, 2023
-Resolved a bug which was not allowing easy navigation between different different measurements.
-
 Project is done.
