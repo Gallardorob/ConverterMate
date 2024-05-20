@@ -9,7 +9,7 @@ class UnitsApi {
         '/' + measure, {"value": value, "from": from, "to": to});
 
     final response = await http.get(uri, headers: {
-      "X-RapidAPI-Key": "4b9d14d096mshe19cce1f30ce004p10dfc2jsna04b8cf24a33",
+      "X-RapidAPI-Key": "tokenKey",
       "X-RapidAPI-Host": "measurement-unit-converter.p.rapidapi.com",
       "useQueryString": "true"
     });
@@ -27,8 +27,7 @@ class UnitsApi {
             Uri.https('measurement-unit-converter.p.rapidapi.com',
                 '/' + measure, {"value": value, "from": from, "to": unit}),
             headers: {
-              "X-RapidAPI-Key":
-                  "4b9d14d096mshe19cce1f30ce004p10dfc2jsna04b8cf24a33",
+              "X-RapidAPI-Key": "tokenKey",
               "X-RapidAPI-Host": "measurement-unit-converter.p.rapidapi.com",
               "useQueryString": "true"
             }).then(
