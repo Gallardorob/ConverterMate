@@ -6,7 +6,7 @@ This application was created as school project.
 
 ## Dates
 
-#Progress Dates. 
+Progress Dates. 
 
 April 10, 2023
 Application successfully receives a reuest body using GET method.
